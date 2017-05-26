@@ -1,0 +1,139 @@
+/*Common styles*/
+
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+
+/*Header styles*/
+
+form {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-size: 0;
+}
+
+::-webkit-input-placeholder {
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #c2c2c2;
+}
+
+.search {
+    width: 80%;
+    padding-top: 100px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.submit {
+    width: 20%;
+    font-size: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    background-size: cover;
+}
+
+
+/*List styles*/
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: rgba(118, 117, 128, 0.05);
+    border-bottom: 4px solid white;
+    display: block;
+    font-size: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.icon {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+    vertical-align: top;
+}
+
+.text {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.text p {
+    color: #c2c2c2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul li:last-child {
+    border-bottom: 0;
+}
+
+ul li:hover {
+    background-color: rgba(118, 117, 128, 0.1);
+}
+
+ul a {
+    text-decoration: none;
+    color: #c2c2c2;
+    font-weight: bold;
+}
+
+ul p:hover {
+    color: #ec5a62;
+}
+
+.content-title {
+    text-transform: uppercase;
+    color: #c2c2c2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.people {
+    font-size: 16px;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.people img {
+    border-radius: 50px;
+}
+
+.popular {
+    font-size: 16px;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.recent {
+    font-size: 16px;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.recent {
+    padding-bottom: 100px;
+}
